@@ -1,0 +1,2 @@
+english-words==1.0.4
+scikit-learn==1.0.2
