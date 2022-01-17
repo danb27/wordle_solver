@@ -13,13 +13,10 @@ from `f"utils/words_to_add_{add|remove}.py"` to suit your individual needs.
 2. Then I provide all the clues I have (provide the algorithm clues from every previous guess) **NOTE: remember that python is 0 indexed**
 
 
-> solver = WordleSolver()  # can also play with params word_length and use_tfidf
+>       solver = WordleSolver()  # can also play with params word_length and use_tfidf
 > 
->       first guess: {'loris': 2.234947858531693, 'snort': 2.2341932811762195, 'dumpy': 2.233495407979424}
+> first guess: {'loris': 2.234947858531693, 'snort': 2.2341932811762195, 'dumpy': 2.233495407979424}
 > 
-> solver.provide_clues(correct=[('c', 0)], close=[('u', 3), ('u', 2), ('b', 4)], wrong=list('mrfaeslodt'))
+>       solver.provide_clues(correct=[('c', 0)], close=[('u', 3), ('u', 2), ('b', 4)], wrong=list('mrfaeslodt'))
 > 
->       next guess: {'cubic': 1.8862536688073503, 'cubby': 1.839545043329641}
-> 
-
-
+> next guess: {'cubic': 1.8862536688073503, 'cubby': 1.839545043329641}
