@@ -6,11 +6,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from utils import CorrectOrCloseWords, EligibleWords, ScoredStrings, WrongWords, WORDS_TO_ADD, WORDS_TO_REMOVE
 
 
-class WorldleSolver:
+class WordleSolver:
     def __init__(self, word_length: int = 5, use_tfidf: bool = True):
         """
         WordleSolver uses an english lexicon to make intelligent guesses when playing Wordle.
-
         :param word_length: How many characters does the target word have? The classic game uses 5, but can be adjusted
         here if needed.
         :param use_tfidf: Whether to use a tfidf of the letters, or just simple term frequency
